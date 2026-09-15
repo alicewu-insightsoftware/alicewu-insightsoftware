@@ -451,6 +451,587 @@
       text-decoration: none;
     }
 
+    /* Screenshot mockups */
+    .screenshots {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-top: 24px;
+    }
+    @media (max-width: 700px) {
+      .screenshots { grid-template-columns: 1fr; }
+    }
+    .screenshot {
+      border: 1px solid var(--c-border);
+      border-radius: 10px;
+      overflow: hidden;
+      background: var(--c-surface);
+    }
+    .screenshot-caption {
+      padding: 12px 16px;
+      border-top: 1px solid var(--c-border);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .screenshot-badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+    .screenshot-badge.frontend {
+      background: var(--c-highlight-soft);
+      color: var(--c-highlight);
+    }
+    .screenshot-badge.backend {
+      background: var(--c-accent-soft);
+      color: var(--c-accent);
+    }
+    .screenshot-text {
+      font-size: 13px;
+      color: var(--c-text-secondary);
+      line-height: 1.5;
+    }
+
+    /* Mockup: shared */
+    .mockup {
+      font-family: -apple-system, 'Noto Sans TC', sans-serif;
+      font-size: 11px;
+      line-height: 1.4;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Mockup: Frontend */
+    .mock-fe, .mock-fe-page {
+      background: #FAFAF8;
+      padding: 0;
+      min-height: 280px;
+      position: relative;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .mock-fe-nav {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 14px;
+      border-bottom: 1px solid #EEECEA;
+      background: #fff;
+    }
+    .mock-fe-logo {
+      font-weight: 700;
+      font-size: 13px;
+      color: #1A1A1A;
+    }
+    .mock-fe-nav span {
+      font-size: 10px;
+      color: #888;
+      margin-left: auto;
+    }
+    .mock-fe-hero {
+      text-align: center;
+      padding: 28px 16px 20px;
+    }
+    .mock-fe-pill {
+      display: inline-block;
+      font-size: 9px;
+      color: #666;
+      border: 1px solid #E0E0E0;
+      border-radius: 10px;
+      padding: 2px 8px;
+      margin-bottom: 10px;
+    }
+    .mock-fe-hero h3 {
+      font-size: 20px;
+      font-weight: 800;
+      color: #1A1A1A;
+      margin-bottom: 6px;
+      letter-spacing: -0.02em;
+    }
+    .mock-fe-hero p {
+      font-size: 9px;
+      color: #888;
+      max-width: 260px;
+      margin: 0 auto 14px;
+      line-height: 1.5;
+    }
+    .mock-fe-stats {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 12px;
+    }
+    .mock-fe-stat {
+      text-align: center;
+    }
+    .mock-fe-stat strong {
+      display: block;
+      font-size: 16px;
+      font-weight: 800;
+      color: #1A1A1A;
+    }
+    .mock-fe-stat small {
+      font-size: 8px;
+      color: #999;
+    }
+    .mock-fe-hero-title {
+      font-size: 20px;
+      font-weight: 800;
+      color: #1A1A1A;
+      margin-bottom: 6px;
+      letter-spacing: -0.02em;
+    }
+    .mock-fe-hero-sub {
+      font-size: 9px;
+      color: #888;
+      max-width: 260px;
+      margin: 0 auto 14px;
+      line-height: 1.5;
+    }
+    .mock-fe-stat-num {
+      display: block;
+      font-size: 16px;
+      font-weight: 800;
+      color: #1A1A1A;
+    }
+    .mock-fe-stat-label {
+      font-size: 8px;
+      color: #999;
+    }
+    .mock-fe-nav-links {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-left: auto;
+    }
+    .mock-fe-nav-links span {
+      font-size: 9px;
+      color: #888;
+    }
+    .mock-fe-providers {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      font-size: 9px;
+      color: #999;
+      padding-bottom: 8px;
+    }
+    /* Chat widget */
+    .mock-chat-widget, .mock-widget {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      width: 180px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+      overflow: hidden;
+      border: 1px solid #E8E8E8;
+    }
+    .mock-widget-header {
+      background: #F9F9F7;
+      padding: 8px 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      border-bottom: 1px solid #EEECEA;
+    }
+    .mock-widget-avatar {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #F4A940;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      color: #fff;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .mock-widget-name {
+      font-weight: 600;
+      font-size: 11px;
+      color: #333;
+    }
+    .mock-widget-status {
+      font-size: 8px;
+      color: #4CAF50;
+    }
+    .mock-widget-body {
+      padding: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .mock-widget-msg {
+      background: #F3F3F1;
+      border-radius: 8px;
+      padding: 6px 8px;
+      font-size: 9px;
+      color: #444;
+      line-height: 1.5;
+    }
+    .mock-widget-input {
+      margin: 4px 8px 8px;
+      border: 1px solid #E0E0E0;
+      border-radius: 6px;
+      padding: 6px 8px;
+      font-size: 9px;
+      color: #BBB;
+    }
+
+    /* Mockup: Backend */
+    .mock-be, .mock-be-page {
+      background: #F5F5F5;
+      display: grid;
+      grid-template-columns: 56px 180px 1fr;
+      min-height: 300px;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .mock-be-sidebar {
+      background: #1B1D21;
+      padding: 10px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    .mock-be-sidebar-icon {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      color: #888;
+      cursor: default;
+    }
+    .mock-be-sidebar-icon.active {
+      background: #2A2D33;
+      color: #fff;
+    }
+    .mock-be-sidebar-logo {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      background: #F4A940;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      color: #fff;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+    .mock-be-list {
+      background: #fff;
+      border-right: 1px solid #E8E8E8;
+      padding: 8px 0;
+      overflow: hidden;
+    }
+    .mock-be-list-header {
+      padding: 8px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #EEECEA;
+      margin-bottom: 4px;
+    }
+    .mock-be-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      cursor: default;
+    }
+    .mock-be-item.active {
+      background: #F0F7FF;
+    }
+    .mock-be-item-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .mock-be-item-text {
+      flex: 1;
+      min-width: 0;
+    }
+    .mock-be-item-name {
+      font-size: 10px;
+      font-weight: 600;
+      color: #333;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .mock-be-item-preview {
+      font-size: 8px;
+      color: #999;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .mock-be-item-time {
+      font-size: 8px;
+      color: #BBB;
+      flex-shrink: 0;
+    }
+    .mock-be-chat {
+      background: #F9F9F7;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .mock-be-chat-header {
+      padding: 6px 10px;
+      border-bottom: 1px solid #EEECEA;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #fff;
+    }
+    .mock-be-chat-name {
+      font-weight: 600;
+      font-size: 11px;
+      color: #333;
+    }
+    .mock-be-chat-tag {
+      font-size: 8px;
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: #E8F5E9;
+      color: #4CAF50;
+    }
+    .mock-be-chat-body {
+      flex: 1;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      overflow: hidden;
+    }
+    .mock-be-msg {
+      max-width: 85%;
+      padding: 6px 9px;
+      border-radius: 8px;
+      font-size: 9px;
+      line-height: 1.5;
+    }
+    .mock-be-msg.system {
+      align-self: center;
+      background: #EEECEA;
+      color: #888;
+      font-size: 8px;
+      max-width: 90%;
+      text-align: center;
+    }
+    .mock-be-msg.outgoing {
+      align-self: flex-end;
+      background: #DCE8FF;
+      color: #333;
+    }
+    .mock-be-msg.ai {
+      align-self: flex-end;
+      background: #E8F5E9;
+      color: #333;
+    }
+    .mock-be-msg.ai .ai-label {
+      font-size: 7px;
+      color: #4CAF50;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+    .mock-be-chat-footer {
+      padding: 6px 10px;
+      border-top: 1px solid #EEECEA;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .mock-be-chat-input {
+      flex: 1;
+      border: 1px solid #E0E0E0;
+      border-radius: 6px;
+      padding: 5px 8px;
+      font-size: 9px;
+      color: #BBB;
+    }
+    .mock-be-chat-send {
+      font-size: 9px;
+      padding: 4px 10px;
+      background: #E53935;
+      color: #fff;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+    .mock-be-user {
+      padding: 6px 10px;
+      border-top: 1px solid #EEECEA;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: #fff;
+      margin-top: auto;
+    }
+    .mock-be-user-avatar {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: #7C4DFF;
+      color: #fff;
+      font-size: 9px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .mock-be-user-name { font-size: 10px; font-weight: 600; color: #333; }
+    .mock-be-user-email { font-size: 8px; color: #999; }
+
+    /* Backend mockup: extra classes used by inline HTML */
+    .mock-be-sidebar-logo {
+      display: flex;
+      align-items: center;
+      padding: 8px 6px;
+      margin-bottom: 4px;
+    }
+    .mock-be-nav-icons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      flex: 1;
+    }
+    .mock-be-nav-icon {
+      width: 30px;
+      height: 30px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: #888;
+      cursor: default;
+    }
+    .mock-be-nav-icon.active {
+      background: #2A2D33;
+      color: #fff;
+    }
+    .mock-be-user {
+      padding: 8px 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      border-top: 1px solid #333;
+      margin-top: auto;
+    }
+    .mock-be-contact {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 10px;
+      cursor: default;
+    }
+    .mock-be-contact.active {
+      background: #F0F7FF;
+    }
+    .mock-be-avatar {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .mock-be-contact-info {
+      flex: 1;
+      min-width: 0;
+    }
+    .mock-be-contact-name {
+      font-size: 10px;
+      font-weight: 600;
+      color: #333;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .mock-be-contact-preview {
+      font-size: 8px;
+      color: #999;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .mock-be-badge {
+      font-size: 7px;
+      padding: 1px 5px;
+      border-radius: 3px;
+      background: #E8F5E9;
+      color: #4CAF50;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .mock-be-messages {
+      flex: 1;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      overflow: hidden;
+    }
+    .mock-be-system-msg {
+      align-self: center;
+      background: #EEECEA;
+      color: #888;
+      font-size: 8px;
+      padding: 4px 10px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .mock-be-msg.incoming {
+      align-self: flex-start;
+      background: #F3F3F1;
+      color: #333;
+    }
+    .mock-be-msg-label {
+      font-size: 7px;
+      color: #4CAF50;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+    .mock-be-msg-text {
+      font-size: 9px;
+      line-height: 1.5;
+    }
+    .mock-be-msg-time {
+      font-size: 7px;
+      color: #AAA;
+      margin-top: 2px;
+    }
+    .mock-be-input {
+      padding: 8px 10px;
+      border-top: 1px solid #EEECEA;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
     /* Inline code */
     code {
       font-family: 'JetBrains Mono', monospace;
@@ -547,6 +1128,175 @@
         <div class="flow-content">
           <div class="flow-title">送出回覆 / 轉接真人</div>
           <div class="flow-desc">確認無誤後自動送出。若問題超出 AI 處理範圍，系統會自動轉接給真人客服，並附上完整對話脈絡。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- Section: Real Screenshots -->
+  <div class="section">
+    <div class="section-label">Real Scenario</div>
+    <h2>實際操作畫面</h2>
+    <p>以下是系統前台與後台的真實畫面——左邊是客戶在網站上與 AI 對話的介面，右邊是客服人員在後台管理對話的介面。</p>
+
+    <div class="screenshots">
+      <!-- Frontend Mockup -->
+      <div class="screenshot">
+        <div class="mock-fe-page">
+          <nav class="mock-fe-nav">
+            <div class="mock-fe-logo">
+              <span style="display:inline-flex;align-items:center;gap:4px;">
+                <span style="background:linear-gradient(135deg,#F4A940,#E8913A);color:#fff;font-weight:800;font-size:11px;padding:2px 5px;border-radius:4px;">AI</span>
+                <span style="font-weight:700;font-size:12px;color:#333;">Token King</span>
+              </span>
+            </div>
+            <div class="mock-fe-nav-links">
+              <span>首頁</span><span>模型</span><span>文檔</span><span>OpenClaw</span><span>Hermes Agent</span><span style="color:var(--accent);">聯繫我們</span>
+            </div>
+          </nav>
+          <div class="mock-fe-hero">
+            <div class="mock-fe-hero-title">全球智能，一站式 API</div>
+            <div class="mock-fe-hero-sub">最全面的 AI 模型聚合平台，讓開發者輕鬆接入全球頂尖 AI 模型</div>
+            <div class="mock-fe-stats">
+              <div class="mock-fe-stat"><span class="mock-fe-stat-num">114+</span><span class="mock-fe-stat-label">AI 模型</span></div>
+              <div class="mock-fe-stat"><span class="mock-fe-stat-num">99.9%</span><span class="mock-fe-stat-label">可用性 SLA</span></div>
+              <div class="mock-fe-stat"><span class="mock-fe-stat-num">10ms</span><span class="mock-fe-stat-label">平均延遲</span></div>
+              <div class="mock-fe-stat"><span class="mock-fe-stat-num">24/7</span><span class="mock-fe-stat-label">支持服務</span></div>
+            </div>
+            <div class="mock-fe-providers">
+              <span style="font-weight:700;color:#10A37F;">OpenAI</span>
+              <span style="font-weight:700;color:#D97757;">Anthropic</span>
+              <span style="font-weight:700;color:#3B82F6;">BytePlus</span>
+              <span style="font-weight:700;color:#FF6A00;">Alibaba</span>
+              <span style="font-weight:700;color:#4285F4;">Google</span>
+            </div>
+          </div>
+          <div class="mock-chat-widget">
+            <div class="mock-widget-header">
+              <div class="mock-widget-avatar">K</div>
+              <div>
+                <div class="mock-widget-name">AI Token King</div>
+                <div class="mock-widget-status">● 在線</div>
+              </div>
+            </div>
+            <div class="mock-widget-body">
+              <div class="mock-widget-msg">你好！我是 AI Token King 智能助手，有什麼可以幫助你的嗎？</div>
+              <div class="mock-widget-msg" style="background:#E8F5E9;color:#2E7D32;">你好，請問你們有哪些 AI 模型可以使用？</div>
+              <div class="mock-widget-msg">我們平台目前支援 114+ 種 AI 模型，包括 OpenAI GPT-4o、Claude 3.5、Gemini 等主流模型 ...</div>
+            </div>
+            <div class="mock-widget-input">輸入訊息...</div>
+          </div>
+        </div>
+        <div class="screenshot-caption">
+          <span class="screenshot-badge frontend">前台</span>
+          <span class="screenshot-text">客戶在網站上點擊對話框，即可與 AI 客服即時互動</span>
+        </div>
+      </div>
+
+      <!-- Backend Mockup -->
+      <div class="screenshot">
+        <div class="mock-be-page">
+          <aside class="mock-be-sidebar">
+            <div class="mock-be-sidebar-logo">
+              <span style="background:linear-gradient(135deg,#F4A940,#E8913A);color:#fff;font-weight:800;font-size:10px;padding:2px 4px;border-radius:3px;">AI</span>
+              <span style="color:#ccc;font-size:10px;font-weight:600;margin-left:4px;">Token King</span>
+            </div>
+            <div class="mock-be-nav-icons">
+              <div class="mock-be-nav-icon active" title="對話">💬</div>
+              <div class="mock-be-nav-icon" title="聯絡人">👥</div>
+              <div class="mock-be-nav-icon" title="自動化">⚡</div>
+              <div class="mock-be-nav-icon" title="知識庫">📚</div>
+              <div class="mock-be-nav-icon" title="設定">⚙️</div>
+            </div>
+            <div class="mock-be-user">
+              <div style="width:24px;height:24px;border-radius:50%;background:#7C4DFF;display:flex;align-items:center;justify-content:center;color:#fff;font-size:10px;font-weight:700;">A</div>
+              <div style="font-size:9px;color:#bbb;line-height:1.3;"><div style="color:#fff;font-weight:600;">Alice</div>alice.wu@insight-soft...</div>
+            </div>
+          </aside>
+          <div class="mock-be-list">
+            <div class="mock-be-list-header">
+              <span style="font-weight:700;font-size:12px;">對話列表</span>
+              <span style="font-size:10px;color:#888;">5 則對話</span>
+            </div>
+            <div class="mock-be-contact active">
+              <div class="mock-be-avatar" style="background:#4FC3F7;">W</div>
+              <div class="mock-be-contact-info">
+                <div class="mock-be-contact-name">weathered-water-785</div>
+                <div class="mock-be-contact-preview">你好，請問你們有哪些 AI 模型...</div>
+              </div>
+              <span class="mock-be-badge">AI</span>
+            </div>
+            <div class="mock-be-contact">
+              <div class="mock-be-avatar" style="background:#AB47BC;">P</div>
+              <div class="mock-be-contact-info">
+                <div class="mock-be-contact-name">purple-brook-137</div>
+                <div class="mock-be-contact-preview">API 金鑰要怎麼申請？</div>
+              </div>
+            </div>
+            <div class="mock-be-contact">
+              <div class="mock-be-avatar" style="background:#78909C;">S</div>
+              <div class="mock-be-contact-info">
+                <div class="mock-be-contact-name">silent-moon-296</div>
+                <div class="mock-be-contact-preview">我想了解計費方式</div>
+              </div>
+            </div>
+            <div class="mock-be-contact">
+              <div class="mock-be-avatar" style="background:#66BB6A;">S</div>
+              <div class="mock-be-contact-info">
+                <div class="mock-be-contact-name">small-grass-807</div>
+                <div class="mock-be-contact-preview">有支援 Claude 嗎？</div>
+              </div>
+            </div>
+            <div class="mock-be-contact">
+              <div class="mock-be-avatar" style="background:#EF5350;">L</div>
+              <div class="mock-be-contact-info">
+                <div class="mock-be-contact-name">liulijuan</div>
+                <div class="mock-be-contact-preview">想詢問企業方案</div>
+              </div>
+            </div>
+          </div>
+          <div class="mock-be-chat">
+            <div class="mock-be-chat-header">
+              <div style="display:flex;align-items:center;gap:8px;">
+                <div class="mock-be-avatar" style="background:#4FC3F7;width:28px;height:28px;font-size:12px;">W</div>
+                <div>
+                  <div style="font-weight:700;font-size:12px;">weathered-water-785</div>
+                  <div style="font-size:9px;color:#888;">Web Chat · 在線</div>
+                </div>
+              </div>
+            </div>
+            <div class="mock-be-messages">
+              <div class="mock-be-system-msg">🤖 預設策略 將對話分配給 <strong>Alice</strong></div>
+              <div class="mock-be-msg incoming">
+                <div class="mock-be-msg-text">你好，請問你們有哪些 AI 模型可以使用？</div>
+                <div class="mock-be-msg-time">14:32</div>
+              </div>
+              <div class="mock-be-msg outgoing">
+                <div class="mock-be-msg-label">🤖 AI 自動回覆</div>
+                <div class="mock-be-msg-text">你好！我們平台目前支援 114+ 種 AI 模型，包括 OpenAI GPT-4o、Claude 3.5 Sonnet、Gemini Pro 等主流模型。每個模型都提供統一的 API 接口，方便開發者快速集成。</div>
+                <div class="mock-be-msg-time">14:32 · AI 回覆</div>
+              </div>
+              <div class="mock-be-msg incoming">
+                <div class="mock-be-msg-text">那你們跟直接用官方 API 有什麼不同？</div>
+                <div class="mock-be-msg-time">14:33</div>
+              </div>
+              <div class="mock-be-msg outgoing">
+                <div class="mock-be-msg-label">🤖 AI 自動回覆</div>
+                <div class="mock-be-msg-text">主要優勢有三點：1️⃣ 一個帳號存取所有模型 2️⃣ 統一的 API 格式 3️⃣ 更優惠的批量計費方案。您不需要分別申請各家的 API Key。</div>
+                <div class="mock-be-msg-time">14:33 · AI 回覆</div>
+              </div>
+            </div>
+            <div class="mock-be-input">
+              <span style="color:#999;font-size:11px;">回覆訊息...</span>
+              <span style="background:var(--accent);color:#fff;font-size:10px;padding:4px 12px;border-radius:4px;font-weight:600;cursor:default;">發送</span>
+            </div>
+          </div>
+        </div>
+        <div class="screenshot-caption">
+          <span class="screenshot-badge backend">後台</span>
+          <span class="screenshot-text">客服人員在後台查看所有對話，監控 AI 回覆並隨時接手</span>
         </div>
       </div>
     </div>
