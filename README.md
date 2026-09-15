@@ -28,6 +28,15 @@ A central hub linking to all project dashboards and tools.
 
 ---
 
+### Kinsunn AI 客服系統指南
+> Kinsunn AI 智能客服產品介紹 — 全渠道整合、AI 自動回覆流程與功能展示
+
+A client-facing walkthrough of the Kinsunn AI customer service system, covering unified inbox, intent recognition, knowledge base search, and human handoff workflows.
+
+**Live** &nbsp; [alicewu0811.github.io/alicewu0811/kinsunn-guide](https://alicewu0811.github.io/alicewu0811/kinsunn-guide/)
+
+---
+
 ### AItokenKing Management
 > AItokenKing 產品管理文件
 
