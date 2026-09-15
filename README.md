@@ -11,11 +11,11 @@ Business Development & AI Solutions at **Insight Software**
 
 Compare pricing across official cloud accounts (AWS/GCP), AI Token King native accounts, and aggregation platforms. Interactive tables with discount tiers and model-by-model breakdowns.
 
-**Live Demo** &nbsp; [Chinese](https://alicewu0811.github.io/ai-dashboard/) · [English](https://alicewu0811.github.io/ai-dashboard/en.html) · [Vietnamese](https://alicewu0811.github.io/ai-dashboard/vi.html)
+**Live Demo** &nbsp; [Chinese](https://alicewu-insightsoftware.github.io/ai-dashboard/) · [English](https://alicewu-insightsoftware.github.io/ai-dashboard/en.html) · [Vietnamese](https://alicewu-insightsoftware.github.io/ai-dashboard/vi.html)
 
 **Deployed at** &nbsp; [Railway](https://ai-dashboard-production-70f2.up.railway.app)
 
-**Source** &nbsp; [alicewu0811/ai-dashboard](https://github.com/alicewu0811/ai-dashboard)
+**Source** &nbsp; [alicewu-insightsoftware/ai-dashboard](https://github.com/alicewu-insightsoftware/ai-dashboard)
 
 ---
 
@@ -33,7 +33,7 @@ A central hub linking to all project dashboards and tools.
 
 A client-facing walkthrough of the Kinsunn AI customer service system, covering unified inbox, intent recognition, knowledge base search, and human handoff workflows.
 
-**Live** &nbsp; [alicewu0811.github.io/alicewu0811/kinsunn-guide](https://alicewu0811.github.io/alicewu0811/kinsunn-guide/)
+**Live** &nbsp; [alicewu-insightsoftware.github.io/alicewu-insightsoftware/kinsunn-guide](https://alicewu-insightsoftware.github.io/alicewu-insightsoftware/kinsunn-guide/)
 
 ---
 
