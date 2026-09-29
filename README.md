@@ -11,9 +11,9 @@ Business Development & AI Solutions at **Insight Software**
 
 Compare pricing across official cloud accounts (AWS/GCP), AI Token King native accounts, and aggregation platforms. Interactive tables with discount tiers and model-by-model breakdowns.
 
-**Live Demo** &nbsp; [Chinese](https://alicewu0811.github.io/ai-dashboard/) · [English](https://alicewu0811.github.io/ai-dashboard/en.html) · [Vietnamese](https://alicewu0811.github.io/ai-dashboard/vi.html)
+**Live Demo** &nbsp; [Chinese](https://alicewu-insightsoftware.github.io/ai-dashboard/) · [English](https://alicewu-insightsoftware.github.io/ai-dashboard/en.html) · [Vietnamese](https://alicewu-insightsoftware.github.io/ai-dashboard/vi.html)
 
-**Deployed at** &nbsp; [GitHub Pages](https://alicewu0811.github.io/ai-dashboard/)
+**Deployed at** &nbsp; [GitHub Pages](https://alicewu-insightsoftware.github.io/ai-dashboard/)
 
 **Source** &nbsp; [alicewu0811/ai-dashboard](https://github.com/alicewu0811/ai-dashboard)
 
@@ -24,7 +24,7 @@ Compare pricing across official cloud accounts (AWS/GCP), AI Token King native a
 
 A central hub linking to all project dashboards and tools.
 
-**Live** &nbsp; [alicewu0811.github.io/portal](https://alicewu0811.github.io/portal/)
+**Live** &nbsp; [alicewu-insightsoftware.github.io/portal](https://alicewu-insightsoftware.github.io/portal/)
 
 ---
 
