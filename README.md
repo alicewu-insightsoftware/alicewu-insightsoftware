@@ -24,7 +24,7 @@ Compare pricing across official cloud accounts (AWS/GCP), AI Token King native a
 
 A central hub linking to all project dashboards and tools.
 
-**Live** &nbsp; [alicewu-insightsoftware.github.io/portal](https://alicewu-insightsoftware.github.io/portal/)
+**Live** &nbsp; [Portal 入口](https://alicewu-insightsoftware.github.io/ai-dashboard/portal.html)
 
 ---
 
