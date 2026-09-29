@@ -13,7 +13,7 @@ Compare pricing across official cloud accounts (AWS/GCP), AI Token King native a
 
 **Live Demo** &nbsp; [Chinese](https://alicewu-insightsoftware.github.io/ai-dashboard/) · [English](https://alicewu-insightsoftware.github.io/ai-dashboard/en.html) · [Vietnamese](https://alicewu-insightsoftware.github.io/ai-dashboard/vi.html)
 
-**Deployed at** &nbsp; [Railway](https://ai-dashboard-production-70f2.up.railway.app)
+**Deployed at** &nbsp; [GitHub Pages](https://alicewu-insightsoftware.github.io/ai-dashboard/)
 
 **Source** &nbsp; [alicewu-insightsoftware/ai-dashboard](https://github.com/alicewu-insightsoftware/ai-dashboard)
 
@@ -24,7 +24,16 @@ Compare pricing across official cloud accounts (AWS/GCP), AI Token King native a
 
 A central hub linking to all project dashboards and tools.
 
-**Live** &nbsp; [portal-production-44ea0.up.railway.app](https://portal-production-44ea0.up.railway.app)
+**Live** &nbsp; [Portal 入口](https://alicewu-insightsoftware.github.io/ai-dashboard/portal.html)
+
+---
+
+### AI 訂閱方案比較 Dashboard
+> GPT / Claude / Gemini 訂閱制完整對比 — 個人、團隊、企業方案 & API 定價
+
+Compare subscription plans across OpenAI (ChatGPT), Anthropic (Claude), and Google (Gemini). Covers consumer tiers, team/enterprise pricing, API costs, and strategic recommendations. Updated for 2026 Q3.
+
+**Source** &nbsp; [ai-subscription-compare/](./ai-subscription-compare/)
 
 ---
 
