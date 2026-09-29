@@ -13,7 +13,7 @@ Compare pricing across official cloud accounts (AWS/GCP), AI Token King native a
 
 **Live Demo** &nbsp; [Chinese](https://alicewu0811.github.io/ai-dashboard/) · [English](https://alicewu0811.github.io/ai-dashboard/en.html) · [Vietnamese](https://alicewu0811.github.io/ai-dashboard/vi.html)
 
-**Deployed at** &nbsp; [Railway](https://ai-dashboard-production-70f2.up.railway.app)
+**Deployed at** &nbsp; [GitHub Pages](https://alicewu0811.github.io/ai-dashboard/)
 
 **Source** &nbsp; [alicewu0811/ai-dashboard](https://github.com/alicewu0811/ai-dashboard)
 
@@ -24,7 +24,7 @@ Compare pricing across official cloud accounts (AWS/GCP), AI Token King native a
 
 A central hub linking to all project dashboards and tools.
 
-**Live** &nbsp; [portal-production-44ea0.up.railway.app](https://portal-production-44ea0.up.railway.app)
+**Live** &nbsp; [alicewu0811.github.io/portal](https://alicewu0811.github.io/portal/)
 
 ---
 
